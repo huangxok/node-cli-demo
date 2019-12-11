@@ -256,7 +256,7 @@ commander
 
 发现的一个bug，**cli** 文件 如果有后缀名 **cli.js**,在执行时，会报错无法找到路径，具体错误时**node fs**文件系统方法
 
-**realpathSync()**, 可以自己尝试下，因此将**cli.js** 改为 **cli*，不添加后缀
+**realpathSync()**, 可以自己尝试下，因此将**cli.js** 改为 **cli**，不添加后缀
 
 1. 安装chrome插件 NIM,用于node 调试的工具
 
