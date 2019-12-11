@@ -4,7 +4,7 @@
   "description": "make a cli demo for study",
   "main": "index.js",
   "bin": {
-    "cli": "bin/cli.js"
+    "cli": "bin/cli"
   },
   "scripts": {
     "test": "test"
