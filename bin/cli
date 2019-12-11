@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+// console.log('cli is run!');
+// console.log('cli is run changed!')
+
+const program = require('commander')
+const version = require('../package.json').version
+program
+  .usage('<command> [项目名称]')
+  .version(version, '-v, --version')
+  // 有哪些命令行
+  // .command('init')命令会找到同文件夹的xxx-init.js并执行
+  .command('init', '初始化项目')
+  // 解析 参数命令 最后都需要加上
+  .parse(process.argv)
